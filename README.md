@@ -17,7 +17,7 @@ namespace ConsoleApp12
     {
         public static void Main(string[] args)
         {
-            int rows = 6, Valu = 1;
+            int rows = 8, s = 1;
             for (int i = 0; i < rows; i++)
             {
                 for (int space1 = 1; space1 < rows - i; space1++)
@@ -28,13 +28,13 @@ namespace ConsoleApp12
                 {
                     if (i == 0 || j == 0)
                     {
-                        Valu = 1;
+                        s = 1;
                     }
                     else
                     {
-                        Valu = Valu * (i - j + 1) / j;
+                        s = s * (i - j + 1) / j;
                     }
-                    Console.Write(Valu + " ");
+                    Console.Write(s + " ");
 
 
                 }
@@ -43,6 +43,8 @@ namespace ConsoleApp12
         }
     }
 }
+
+
 
 
 ```
