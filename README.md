@@ -7,7 +7,7 @@ To write a C# program to print a pattern.
 Visual Stdio.
 
 ## Algorithm:
-```
+
 ### Step1:
 Create a class and declare a variable with string datatype.
 ### Step2:
@@ -17,7 +17,7 @@ Use if condition to check whether input is equal to the calculated number.
 ### Step4:
 Display the results of the condition of the input using Console.WriteLine().
 
-```
+
 
 ## Program:
 ```
