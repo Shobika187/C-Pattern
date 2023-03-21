@@ -1,10 +1,23 @@
 # Pattern
 
 ## Aim:
+To write a C# program to print a pattern.
 
 ## Equipment Required:
+Visual Stdio.
 
 ## Algorithm:
+```
+### Step1:
+Create a class and declare a variable with string datatype.
+### Step2:
+Use for loop to check whether the input is a palindrome or not.
+### Step3:
+Use if condition to check whether input is equal to the calculated number.
+### Step4:
+Display the results of the condition of the input using Console.WriteLine().
+
+```
 
 ## Program:
 ```
@@ -54,3 +67,4 @@ namespace ConsoleApp12
 
 
 ## Result:
+Thus the C# to print the pattern is successfully executed.
